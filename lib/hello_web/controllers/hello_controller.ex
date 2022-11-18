@@ -4,4 +4,9 @@ defmodule HelloWeb.HelloController do
   def index(conn, _params) do
     render conn, "index.html"
   end
+  
+  
+  def bugged_controller(conn, _params) do
+    render conn, "index.html"
+  end
 end
