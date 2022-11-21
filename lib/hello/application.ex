@@ -1,6 +1,6 @@
 defmodule Hello.Application do
   @moduledoc """
-  This is the Hello module.
+  This is the Hello module. we
   """
   use Application
   
