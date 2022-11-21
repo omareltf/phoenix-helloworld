@@ -1,5 +1,9 @@
 defmodule Hello.Application do
+  @moduledoc """
+  This is the Hello module.
+  """
   use Application
+  
 
   # See https://hexdocs.pm/elixir/Application.html
   # for more information on OTP Applications
