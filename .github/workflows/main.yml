@@ -1,4 +1,4 @@
-name: reviewdog
+name: credo
 on: [pull_request]
 jobs:
   credo:
@@ -9,3 +9,5 @@ jobs:
 
         - name: Run Credo
           uses: sumup-bank/run-credo@v1
+          with:
+            args: --help
