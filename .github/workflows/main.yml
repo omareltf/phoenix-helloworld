@@ -9,6 +9,4 @@ jobs:
         - name: Run Credo
           uses: sumup-bank/run-credo@v1
           with:
-            args: --help
-        - name: Create annotation for build error
-          run: echo "::error file=app.js,line=1::Missing semicolon"
+            args: --only readability,warning
