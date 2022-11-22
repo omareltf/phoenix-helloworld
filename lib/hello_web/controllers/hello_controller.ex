@@ -3,6 +3,6 @@ defmodule HelloWeb.HelloController do
 
   def index(conn, %{"xdomain" => xdomain_url}) do
     render conn, "index.html"
-    Logger.debug "This happened: #{String.to_atom(xdomain_url)}"
+    Logger.debug "This happenedx: #{String.to_atom(xdomain_url)}"
   end
 end
