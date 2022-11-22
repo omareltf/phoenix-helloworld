@@ -9,4 +9,4 @@ jobs:
         - name: Run Credo
           uses: sumup-bank/run-credo@v1
           with:
-            args: --only readability,warning
+            args: --only warning
