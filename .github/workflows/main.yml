@@ -1,11 +1,12 @@
-name: reviewdog
-on: [pull_request]
+name: credo
+on: [push]
 jobs:
   credo:
     name: runner / credo
     runs-on: ubuntu-latest
     steps:
-        - uses: actions/checkout@v3
 
         - name: Run Credo
           uses: sumup-bank/run-credo@v1
+          with:
+            args: --only readability,warning
