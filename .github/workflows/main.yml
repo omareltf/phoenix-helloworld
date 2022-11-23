@@ -11,4 +11,4 @@ jobs:
           with:
             args: --only warning
         - run: pwd
-        - run: ls
+        - run: ls /github/workspace/
