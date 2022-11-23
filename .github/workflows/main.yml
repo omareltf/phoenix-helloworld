@@ -7,6 +7,6 @@ jobs:
     steps:
         - uses: actions/checkout@v3
         - name: Run Credo
-          uses: omareltf/my-credo@v3
+          uses: omareltf/my-credo@latest
           with:
             args: --config-file /credo.exs
