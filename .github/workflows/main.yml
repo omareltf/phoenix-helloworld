@@ -7,7 +7,7 @@ jobs:
     steps:
         - uses: actions/checkout@v3
         - name: Run Credo
-          uses: omareltf/my-credo@v1
+          uses: omareltf/my-credo@v2
           with:
             args: --only warning
         - run: pwd
