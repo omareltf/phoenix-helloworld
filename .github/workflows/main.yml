@@ -10,3 +10,5 @@ jobs:
           uses: omareltf/my-credo@v1
           with:
             args: --only warning
+        - run: pwd
+        - run: ls
