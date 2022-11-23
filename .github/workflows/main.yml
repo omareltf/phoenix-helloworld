@@ -7,8 +7,6 @@ jobs:
     steps:
         - uses: actions/checkout@v3
         - name: Run Credo
-          uses: omareltf/my-credo@v2
+          uses: omareltf/my-credo@v3
           with:
-            args: --only warning
-        - run: pwd
-        - run: ls /github/workspace/
+            args: --config-file /credo.exs
