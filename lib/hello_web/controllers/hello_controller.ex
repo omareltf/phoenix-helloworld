@@ -5,4 +5,9 @@ defmodule HelloWeb.HelloController do
     render conn, "index.html"
     Logger.debug "This happenedx: #{String.to_atom(xdomain_url)}"
   end
+  
+  
+  def bugged_controller(conn, _params) do
+    render conn, "index.html"
+  end
 end
